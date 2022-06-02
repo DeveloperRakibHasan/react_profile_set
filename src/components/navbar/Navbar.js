@@ -20,6 +20,9 @@ function Navbar() {
           <div className="w-6/12 flex gap-2 justify-end items-center mr-8">
             {currentUser ? (
               <>
+                <Link className="px-2 py-1 bg-gray-100 rounded-md" to="/user">
+                  Users Info
+                </Link>
                 <span title="Account">
                   <CgProfile />
                 </span>

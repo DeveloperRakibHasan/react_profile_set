@@ -7,6 +7,7 @@ import Login from "./components/pages/Login";
 import NotFound from "./components/pages/NotFound";
 import Project from "./components/pages/Project";
 import SignUp from "./components/pages/SignUp";
+import Users from "./components/pages/Users";
 import { AuthProvider } from "./context/AuthContext";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/project" component={Project} />
+          <Route exact path="/user" component={Users} />
           <PublicRoute exact path="/login" component={Login} />
           <PublicRoute exact path="/signup" component={SignUp} />
           <PublicRoute exact component={NotFound} />

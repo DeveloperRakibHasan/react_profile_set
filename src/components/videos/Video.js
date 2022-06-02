@@ -1,3 +1,5 @@
+import LinesEllipsis from 'react-lines-ellipsis'
+
 export default function Video({ title, noq, id }) {
   return (
     <>
@@ -8,7 +10,15 @@ export default function Video({ title, noq, id }) {
             src={`http://img.youtube.com/vi/${id}/maxresdefault.jpg`}
             alt=""
           />
-          <h6 className="my-2">{title}</h6>
+          <h6 className="my-2">
+          <LinesEllipsis
+            text={title}
+            maxLine='2'
+            ellipsis='...'
+            trimRight
+            basedOn='letters'
+           />
+          </h6>
           <div className="flex mx-1 justify-between">
             <p>{noq} Question</p>
             <p>Score: {noq * 5}</p>
