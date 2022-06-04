@@ -22,8 +22,8 @@ function Userinfo() {
             <div className='grid gap-6 grid-flow-row grid-cols-3'> 
 
                 {
-                    users.map((elem) => (
-                        <div className='flex border px-2 py-6 shadow-lg'>
+                    users.map((elem, index) => (
+                        <div className='flex border px-2 py-6 shadow-lg' key={index}>
                         <div className='ml-4'>
                             <p>Name: {elem.name}</p>
                             <p>Email: {elem.email}</p>

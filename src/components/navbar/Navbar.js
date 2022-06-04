@@ -6,6 +6,10 @@ import { useAuth } from "../../context/AuthContext";
 
 function Navbar() {
   const { currentUser, logout } = useAuth();
+
+
+ 
+
   return (
     <>
       <div className="container">
@@ -31,6 +35,7 @@ function Navbar() {
                   className="cursor-pointer"
                   title="Log Out"
                   onClick={logout}
+                  
                 />
               </>
             ) : (

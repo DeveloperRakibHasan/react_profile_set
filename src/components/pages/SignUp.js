@@ -30,7 +30,7 @@ function SignUp() {
       setError("");
       setLoading(true);
       await signup(email, password, username);
-      histry.push("/");
+      histry.push("/profile");
     } catch (err) {
       console.log(err);
       setLoading(false);
@@ -49,7 +49,7 @@ function SignUp() {
             <TextInput
               required
               type="text"
-              placeholder="Enter Name"
+              Placeholder="Enter Name"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />

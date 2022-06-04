@@ -22,7 +22,7 @@ function LogForm() {
       setError("");
       setLoading(true);
       await login(email, password);
-      histry.push("/");
+      histry.push("/profile");
     } catch (err) {
       setLoading(false);
       setError("Faild to login");

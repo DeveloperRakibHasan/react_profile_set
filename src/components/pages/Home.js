@@ -1,13 +1,11 @@
 import React from "react";
-// import HomeSlider from "../homecomponent/HomeSlider";
-import Videos from "../videos/Videos";
+import HomeSlider from "../homecomponent/HomeSlider";
 
-//
 function Home() {
   return (
     <>
-      {/* <HomeSlider /> */}
-      <Videos />
+      <HomeSlider />
+
     </>
   );
 }
