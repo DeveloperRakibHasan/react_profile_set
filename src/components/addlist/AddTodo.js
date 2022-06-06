@@ -1,16 +1,12 @@
-import React from 'react'
-import AddForm from './AddForm'
-import AddItem from './AddItem'
+import React from "react";
+import AddForm from "./AddForm";
 
 function AddTodo() {
   return (
-      <>
-   
-   <AddForm />
-   <AddItem />
-    
+    <>
+      <AddForm />
     </>
-  )
+  );
 }
 
-export default AddTodo
+export default AddTodo;

@@ -25,6 +25,9 @@
   .container {
     margin-top: 64px;
   }
+  .font-yanone {
+    font-family: "Yanone Kaffeesatz", serif;
+  }
 
   :root {
     --theme-bg-color: rgba(16 18 27 / 40%);

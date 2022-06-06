@@ -1,12 +1,12 @@
-import React from 'react'
-import Videos from '../videos/Videos'
+import React from "react";
+import Videos from "../videos/Videos";
 
 function Profile() {
   return (
     <>
-    <Videos />
+      <Videos />
     </>
-  )
+  );
 }
 
-export default Profile
+export default Profile;

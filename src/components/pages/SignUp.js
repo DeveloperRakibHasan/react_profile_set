@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
+import MesiaSignin from "../signmedia/MesiaSignin";
 import Checkbox from "../signup/Checkbox";
 import Form from "../signup/Form";
 import Illustration from "../signup/Illustration";
@@ -98,6 +99,7 @@ function SignUp() {
               </Link>
               instead.
             </div>
+            <MesiaSignin />
           </Form>
         </div>
       </div>
